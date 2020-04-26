@@ -11,6 +11,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SobreComponent } from './sobre/sobre.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,11 +21,14 @@ import { SobreComponent } from './sobre/sobre.component';
     FooterComponent,
     SobreComponent,
     
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]

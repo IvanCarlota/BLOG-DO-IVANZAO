@@ -1,3 +1,4 @@
+
 /* Create a Parallax Effect */
 .parallax-1, .parallax-2, .parallax-3 {
   background-attachment: fixed;
@@ -8,10 +9,40 @@
 
 /* First image (Logo. Full height) */
 .parallax-1 {
-  background-image: url('https://i.imgur.com/ybsmYh7.jpg');
-  min-height: 100%;
+  background-image: url('https://i.imgur.com/vRiX4Md.jpg');
+  min-height: 75%;
+  width: 100%;
 }
 
+.parallax-2 {
+  background-image: url('https://i.imgur.com/x1DHqUX.jpg');
+  min-height: 75%;
+  width: 100%;
+}
+
+.card{
+  margin: 0 auto;
+  background: #0074FF;
+}
+
+.card h5  {
+  font-size: 30px;
+  color: #fff;
+  /* padding: 10px 12px; */
+}
+
+.card p  {
+  color: #fff;
+  /* padding: 10px 12px; */
+}
+
+.card img{
+  height: 300px;
+}
+
+.Produtos{
+  width: 100%;
+}
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
