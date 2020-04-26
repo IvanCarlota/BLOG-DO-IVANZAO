@@ -23,6 +23,15 @@
 .card{
   margin: 0 auto;
   background: #0074FF;
+  
+}
+.card img:hover{
+  border: none;
+  background-color: #f5f5f5;
+  float: right;
+  opacity: 0.9;
+  transition: opacity 1s;
+  border-radius: 10px;
 }
 
 .card h5  {
@@ -40,9 +49,7 @@
   height: 300px;
 }
 
-.Produtos{
-  width: 100%;
-}
+
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
@@ -51,6 +58,6 @@
 @media only screen and (max-device-width: 1600px) {
   .parallax-1, .parallax-2, .parallax-3 {
     background-attachment: scroll;
-    min-height: 400px;
+    min-height: 300px;
   }
 }

@@ -14,13 +14,7 @@
   
   /* Second image (Portfolio) */
   .parallax-2 {
-    background-image: url("https://i.imgur.com/jKJ5sqR.jpg");
-    min-height: 400px;
-  }
-  
-  /* Third image (Contact) */
-  .parallax-3 {
-    background-image: url("/w3images/parallax3.jpg");
+    background-image: url("https://i.imgur.com/gYYkbRj.jpg");
     min-height: 400px;
   }
   

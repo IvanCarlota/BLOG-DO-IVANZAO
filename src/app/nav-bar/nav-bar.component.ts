@@ -19,7 +19,7 @@ export class NavBarComponent implements OnInit {
     } else {
       x.className = x.className.replace("w3-show", " ");
     }
-
+    
   }
 
   
