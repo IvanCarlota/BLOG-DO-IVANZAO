@@ -11,7 +11,11 @@ export class NavBarComponent implements OnInit {
 
   }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.menu
+  }
+
+  menu(){
     // Utilizado para alternar o menu em telas pequenas ao clicar no botão de menu  
     var x = document.getElementById("navDemo");
     if (x.className.indexOf("w3-show") == -1) {
@@ -21,8 +25,6 @@ export class NavBarComponent implements OnInit {
     }
     
   }
-
-  
 
 
 

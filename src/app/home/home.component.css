@@ -24,6 +24,7 @@
   margin: 0 auto;
   background: #0074FF;
   
+  
 }
 .card img:hover{
   border: none;
@@ -47,6 +48,7 @@
 
 .card img{
   height: 300px;
+  
 }
 
 
